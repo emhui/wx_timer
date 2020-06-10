@@ -1,0 +1,19 @@
+<view class="container">
+
+<view class="main" id="main">
+  <view class="timer_wrapper">
+    <text class="timer_time">
+      {{ showTime}}
+    </text>
+  </view>
+</view>
+
+<view class="footer">
+<view class="function_wrapper">
+  <view class="btn_fun btn_start" bindtap="start">{{ isRunning ? '暂停' : '开始'}}</view>
+  <view class="btn_fun btn_rest" bindtap="rest">重置</view>
+</view>
+
+</view>
+
+</view>

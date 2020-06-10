@@ -1,0 +1,13 @@
+/* pages/setting/setting.wxss */
+
+.section{
+  background-color: #eee;
+  margin: 6px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.section_text{
+  color: #333;
+  margin-bottom: 4px;
+}

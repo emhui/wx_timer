@@ -1,0 +1,13 @@
+<!--pages/setting/setting.wxml-->
+<view class="container">
+<view class="section">
+  <text class="section_text">工作时间</text>
+  <view class="section_slide_wrapper">
+    <slider class="slide_worktime" bindchange="slideChangeDefaultWorkTime" 
+    value="{{defaultTimeWork}}"
+    backgroundColor="#333"
+    block-size="20"
+     show-value></slider>
+  </view>
+</view>
+</view>
